@@ -143,66 +143,6 @@ npm start
 
 Frontend will start on `http://localhost:3000`
 
-
-
-\## Project Structure
-
-```
-
-conestoga-exam-scheduler/
-
-├── backend/                    # Spring Boot Application
-
-│   ├── src/
-
-│   │   ├── main/
-
-│   │   │   ├── java/
-
-│   │   │   │   └── com/conestoga/scheduler/
-
-│   │   │   │       ├── entity/
-
-│   │   │   │       ├── repository/
-
-│   │   │   │       ├── dto/
-
-│   │   │   │       ├── service/
-
-│   │   │   │       └── controller/
-
-│   │   │   └── resources/
-
-│   │   │       └── application.properties
-
-│   └── pom.xml
-
-│
-
-├── frontend/                   # React Application
-
-│   ├── src/
-
-│   │   ├── components/
-
-│   │   │   ├── courses/
-
-│   │   │   └── exams/
-
-│   │   ├── services/
-
-│   │   └── App.js
-
-│   └── package.json
-
-│
-
-└── README.md
-
-```
-
-
-
 ## Roadmap
 
 
