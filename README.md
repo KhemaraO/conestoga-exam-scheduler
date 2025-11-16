@@ -1,4 +1,4 @@
-\# Conestoga Exam Scheduler
+# Conestoga Exam Scheduler
 
 
 
@@ -16,11 +16,11 @@ A full-stack web application to help Conestoga College students track their cour
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
-\*\*Frontend:\*\*
+**Frontend:**
 
 * React 18
 * Tailwind CSS
@@ -28,7 +28,7 @@ A full-stack web application to help Conestoga College students track their cour
 
 
 
-\*\*Backend:\*\*
+**Backend:**
 
 * Spring Boot 3.2.0
 * Java 17
@@ -37,13 +37,13 @@ A full-stack web application to help Conestoga College students track their cour
 
 
 
-\*\*Database:\*\*
+**Database:**
 
 * PostgreSQL 16
 
 
 
-\## Prerequisites
+## Prerequisites
 
 
 
@@ -54,11 +54,11 @@ A full-stack web application to help Conestoga College students track their cour
 
 
 
-\## Local Setup Instructions
+## Local Setup Instructions
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 
@@ -70,13 +70,13 @@ cd conestoga-exam-scheduler
 
 
 
-\### 2. Setup Database
+### 2. Setup Database
 
 ```sql
 
 -- Create database
 
-CREATE DATABASE conestoga\_scheduler;
+CREATE DATABASE conestoga_scheduler;
 
 ```
 
@@ -84,19 +84,20 @@ CREATE DATABASE conestoga\_scheduler;
 
 
 
-Update `backend/src/main/resources/application.properties`;
+Update `backend/src/main/resources/application.properties`
 
 ```properties
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/conestoga\_scheduler
+spring.datasource.url=jdbc:postgresql://localhost:5432/conestoga_scheduler
 
 spring.datasource.username=postgres
 
-spring.datasource.password=YOUR\_PASSWORD
+spring.datasource.password=YOUR_PASSWORD
+```
 
 
 
-\### 4. Run Backend
+### 4. Run Backend
 
 ```bash
 
@@ -108,11 +109,11 @@ mvn spring-boot:run
 
 
 
-Backend will start on `htt\[://localhost:8081`
+Backend will start on `http://localhost:8081`
 
 
 
-\### 5. Setup Frontend
+### 5. Setup Frontend
 
 ```bash
 
@@ -127,9 +128,9 @@ npm install
 Create `.env` file:
 
 ```
-REACT\_APP\_API\_BASE\_URL=http://localhost:8081/api
+REACT_APP_API_BASE_URL=http://localhost:8081/api
 
-REACT\_APP\_USER\_ID=1
+REACT_APP_USER_ID=1
 ```
 
 ### 6. Run Frontend
