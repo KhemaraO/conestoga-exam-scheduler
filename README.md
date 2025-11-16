@@ -135,7 +135,7 @@ REACT_APP_USER_ID=1
 
 ### 6. Run Frontend
 ```bash
-npmstart
+npm start
 
 ```
 
