@@ -203,7 +203,7 @@ conestoga-exam-scheduler/
 
 
 
-\## Roadmap
+## Roadmap
 
 
 
@@ -216,7 +216,7 @@ conestoga-exam-scheduler/
 
 
 
-\## Author
+## Author
 
 Khemara Oeun - Conestoga College Alumni
 
